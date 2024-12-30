@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-    color: #fff;
+    color: #111;
     font-weight: bold;
     font-size: 2em;
     text-decoration: none;
@@ -149,3 +149,194 @@ header .navbar li a:hover {
     width: 200px;
     position: relative;
 }*/
+.titre{
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.menu{
+    margin-top:-100px ;
+}
+.menu .contenu {
+    display: flex; /* Active le mode flexbox */
+    justify-content: space-between; /* Espace égal entre les éléments */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    gap: 20px; /* Espacement entre les boîtes */
+}
+
+.menu .contenu .box {
+    width: calc(25% - 40px); /* Chaque boîte occupe 25% moins les marges/gap */
+    margin: 10px 0; /* Espace vertical */
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.menu .contenu .box .imgbox {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.menu .contenu .box .imgbox img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titre .btn {
+    padding: 10px 20px;
+    background: #fb911F;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.titre .btn:hover {
+    background: #d87710;
+    transition: background-color 0.3s ease;
+}
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+
+}
+.menu .contenu .box .text h3{
+    font-weight: 400px;
+}
+.expert{
+    margin-top: -100px;
+
+}
+.expert .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.expert .contenu .box{
+    width:  250px ;
+    margin: 15;
+}
+.expert .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.expert .contenu .box img h3{
+     color: #111;
+     font-weight: 400;
+     text-align: center;
+}
+.temoignage {
+    background-image: url("./images/bg2.jpg");
+    background-size: cover;
+}
+
+.temoignage .contenu {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    gap: 20px; /* Espace uniforme entre les boîtes */
+}
+
+.temoignage .contenu .box {
+    width: 300px; /* Taille uniforme des boîtes */
+    margin: 0; /* Supprime les marges inutiles */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px; /* Ajoute un espace interne */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Donne un effet de profondeur */
+}
+
+.temoignage .contenu .box .imgbox {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Rend l'image circulaire */
+    overflow: hidden;
+    margin-bottom: 10px; /* Réduit l'espace entre l'image et le texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .contenu .box .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.temoignage {
+    background-image: url("./images/bg2.jpg");
+    background-size: cover;
+}
+
+.temoignage .contenu {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    gap: 20px; /* Espace uniforme entre les boîtes */
+}
+
+.temoignage .contenu .box {
+    width: 300px; /* Taille uniforme des boîtes */
+    margin: 0; /* Supprime les marges inutiles */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px; /* Ajoute un espace interne */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Donne un effet de profondeur */
+}
+
+.temoignage .contenu .box .imgbox {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Rend l'image circulaire */
+    overflow: hidden;
+    margin-bottom: 10px; /* Réduit l'espace entre l'image et le texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .contenu .box .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.temoignage .contenu .box .text {
+    text-align: center;
+    padding: 10px 0; 
+    font-style: italic;
+
+}
+.temoignage .contenu .box .text h3{
+    color: #d87710;
+    margin-top: 20px;
+    font-size: 1em;
+    
+}
